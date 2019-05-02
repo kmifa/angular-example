@@ -10,5 +10,6 @@ export class AppComponent {
 
   test() {
     let t = 'test';
+    let a = 'ddd';
   }
 }
