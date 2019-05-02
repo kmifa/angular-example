@@ -9,9 +9,9 @@ export class AppComponent {
   title = 'example-project';
 
   test() {
-    let t = 'test';
-    let a = 'ddd';
-    let ts = 'aaa';
-    let tsd = 'aaa';
+    const t = 'test';
+    const a = 'ddd';
+    const ts = 'aaa';
+    const tsd = 'aaa';
   }
 }
