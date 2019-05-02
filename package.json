@@ -11,6 +11,11 @@
     "lint-style": "prettier-stylelint --quiet --write src/**/*",
     "tslint-check": "tslint-config-prettier-check ./tslint.json"
   },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm lint"
+    }
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~7.2.0",
