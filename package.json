@@ -11,11 +11,9 @@
     "lint-style": "prettier-stylelint --quiet --write src/**/*",
     "tslint-check": "tslint-config-prettier-check ./tslint.json"
   },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm lint"
-    }
-  },
+  "pre-push": [
+    "lint"
+  ],
   "private": true,
   "dependencies": {
     "@angular/animations": "~7.2.0",
@@ -48,6 +46,7 @@
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "~1.1.2",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "pre-push": "^0.1.1",
     "prettier": "1.17.0",
     "prettier-stylelint": "^0.4.2",
     "protractor": "~5.4.0",
