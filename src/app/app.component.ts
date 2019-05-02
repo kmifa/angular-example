@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'example-project';
 
   test() {
-    let t = 'test';
-    let a = 'ddd';
+    // let t = 'test';
+    // let a = 'ddd';
   }
 }
