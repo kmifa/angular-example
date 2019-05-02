@@ -12,7 +12,8 @@
     "tslint-check": "tslint-config-prettier-check ./tslint.json"
   },
   "pre-push": [
-    "lint"
+    "lint",
+    "lint-style"
   ],
   "private": true,
   "dependencies": {
