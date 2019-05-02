@@ -12,5 +12,6 @@ export class AppComponent {
     let t = 'test';
     let a = 'ddd';
     let ts = 'aaa';
+    let tsd = 'aaa';
   }
 }
